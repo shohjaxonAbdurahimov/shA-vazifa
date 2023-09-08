@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create User Card Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form hidden" id="form">
+        <input type="url" placeholder="Image" id="image">
+        <input type="text"  id="fullname" placeholder="Name">
+        <input type="text"  id="phonenumber" placeholder="tel Number">
+        <input type="number"  id="age" placeholder="Age">
+        <h3 class="gender-title">Gender</h3>
+        <div class="gender-wrapper">
+            <label for="">Male
+                <input type="radio" id="gender" name="gender" value="Male">
+            </label>
+            <label for="">Female
+                <input type="radio" id="gender" name="gender" value="Female">
+            </label>
+        </div>
+        <button class="submit-btn" id="submit-btn" type="submit">Submit</button>
+    </form>
+    <button class="add-user-btn" id="add-user-btn">Create  User</button>
+    <ul class="site-list" id="site-list"></ul>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
